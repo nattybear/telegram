@@ -1,7 +1,6 @@
 from urllib.parse import urlencode
 from urllib.request import urlopen, Request
 
-
 class Bot:
     base_url = "https://api.telegram.org/bot%s/%s"
 
